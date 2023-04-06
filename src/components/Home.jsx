@@ -30,7 +30,7 @@ function Home() {
           <a href='https://www.linkedin.com/in/ester-rocha-soares-9301671b0' target='_blank'>
             <img src={Linkedin} className=' shrink-0 ' /> </a>
         </ul>
-        <div>
+        <div className='flex flex-col md:flex-row gap-6'>
           <p className='text-white font-fira-sans max-w-lg '>
             <strong className='text-xl md:text-4xl text-blue-900'
             >Olá, meu nome é Ester Rocha e sou desenvolvedora full stack.</strong>  <br/>
@@ -40,6 +40,7 @@ function Home() {
             Estou animada em utilizar minhas habilidades 
             e conhecimentos para desenvolver soluções tecnológicas criativas e eficazes.</span>
           </p>
+          
         </div>
 
       </main>
